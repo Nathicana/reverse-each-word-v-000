@@ -3,8 +3,8 @@ def reverse_each_word(sentence)
   sentence = sentence.split
   my_new_sentence = []
   sentence.collect do |word|
-     word.reverse
+    my_new_sentence = word.reverse
      
 end
-
+my_new_sentence
 end
